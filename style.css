@@ -1,0 +1,42 @@
+:root {
+  --green: #198754;
+  --light-green: #dff5e1;
+  --font: 'Poppins', sans-serif;
+}
+
+html, body {
+    overscroll-behavior: none;
+    overflow-x: hidden;
+  }
+
+body {
+  font-family: var(--font);
+  color: #333;
+  background-color: #fff;
+}
+
+
+/* Products */
+.product-card img {
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
+.product-card button:hover {
+  background-color: var(--green);
+  color: #fff;
+}
+
+/* Newsletter */
+.newsletter input {
+  max-width: 400px;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+}
